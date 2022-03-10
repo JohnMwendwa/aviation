@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        body{
+            display: flex;
+           flex-direction: column;
+            min-height: 100vh;
+        }
+        main{
+            margin-top: 10px;
+           flex: 1 0 auto; 
+        }
+      main >img{
+            max-width: 100%;
+            max-height: 100%;
+           border-radius: 8px;
+        }
+        footer{
+            margin-top: 10px;
+        }
+        .slider .indicators .indicator-item.active{
+            background-color:rgb(13, 13, 36);
+        }
+    </style>
+</head>
+<body>
+  
+<div class="navbar-fixed">
+    <nav class="blue darken-4">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">AVIATION <i class="large material-icons right">flight_takeoff</i></a>
+                <a href="#!" class="sidenav-trigger" data-target="mobile-nav">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="about.html" class="white-text">About</a></li>
+                    <li><a href="sponsors.html" class="white-text">Partners</a></li>
+                    <li><a href="faqs.html" class="white-text">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+</div>
+
+<ul class="sidenav" id="mobile-nav">
+    <li>
+        <div class="user-view">
+            <div class="background">
+                <img src="img/comet.jpg">
+            </div>
+            <a href="#!" >
+                <img src="img/potrait.jpg" class="circle" >
+            </a>
+            <a href="#!">
+                <span class="white-text name">
+                    John Mwendwa
+                </span>
+            </a>
+            <a href="#!">
+                <span class="white-text email">
+                    john13kat@gmail.com
+                </span>
+            </a>
+        </div>
+    </li>
+    <li>
+        <a href="#!">
+            <i class="material-icons">dashboard</i>Dashboard
+        </a>
+    </li>
+    <li>
+        <a href="#!">
+            <i class="material-icons">sms</i>Messages
+<span class="badge new">10</span>
+        </a>
+    </li>
+   <li>
+       <div class="divider"></div>
+   </li>
+    <li>
+        <a href="about.html">About</a>
+    </li>
+    <li><a href="sponsors.html">Partners</a></li>
+    <li><a href="faqs.html">FAQs</a></li>
+
+    <li>
+        <div class="divider"></div>
+    </li>
+    <li>
+        <a href="#!" class="waves-effect waves-light">
+            <i class="material-icons right tiny">logout</i>Logout
+        </a>
+    </li>
+</ul>
+
+<main>
+    <div class="container">
+                <div class="slider">
+                    <ul class="slides">
+                      
+                        <li>
+                            <img src="img/adm.jpg">
+                            <div class="caption left-align">
+                                <h4 class="black-text">Administration Block</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/library.jpg">
+                            <div class="caption center-align">
+                                <h4 class="black-text">Modern Class Library</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/hostels.jpg">
+                            <div class="caption right-align">
+                                <h4 class="black-text">Students Hostels</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+<div class="section white">
+    <div class="row">
+        <h1 class="header center">Administration Block</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem eum voluptatem facere ea esse exercitationem, quas atque quaerat at consectetur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cupiditate reprehenderit debitis totam, ipsam officiis natus velit rerum qui sint dicta amet saepe delectus ea aliquam. Dicta porro iste commodi!</p>
+    </div>
+</div>
+
+
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="img/oranges.jpg" >
+    </div>
+</div>
+<div class="section white">
+    <div class="row ">
+        <h2 class="header center">Modern class library</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda in explicabo officiis! Facilis, expedita ut. Nesciunt quo perferendis fugiat adipisci.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quasi velit iure fugit quia hic omnis. Natus repudiandae, accusamus doloribus, quas debitis perferendis, aliquam eius ad suscipit animi aspernatur placeat!</p>
+    </div>
+</div>
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="img/adm.jpg" >
+    </div>
+</div>
+    </div>
+</main>
+
+
+<footer class="page-footer blue darken-4">
+    <div class="container">
+       <div class="row">
+           <div class="col s12 m6">
+               <h5>About Us</h5>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem perferendis magni molestiae illo quam repellendus necessitatibus reiciendis, animi assumenda cum!</p>
+           </div>
+           <div class="col s12 m4 offset-m2">
+               <h5>Partners</h5>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, a? Rem aperiam assumenda vel explicabo dolor modi quasi molestiae earum?</p>
+           </div>
+       </div>
+    </div>
+<div class="footer-copyright black lighten-4">
+    <div class="container">
+        Copyright &copy; 2022
+        <a href="#!" class="white-text right">John Mwendwa</a>
+    </div>
+</div>
+</footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.carousel-slider').carousel({
+                indicators:true,
+                fullWidth:true
+            })
+            $('#demo-carousel-auto').carousel();
+ 
+  setInterval(function() {
+ 
+    $('#carousel-slider').carousel('next');
+ 
+  }, 5000);  
+
+  $('.parallax').parallax(); 
+   $('.slider').slider({
+       height:500
+   })         
+        })
+        
+
+    </script>
+</body>
+</html>
